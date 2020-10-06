@@ -1,5 +1,5 @@
 // 밝기 조절을 위한 if 문과 reading_last 변수를 추가해 reading 값이 0인 경우에 reading_last값을 반환 
-// 결과 : reading 값이 300과 같아지지 않는 한, 불빛은 작게라도 살아있다.
+// 결과 : reading 값이 100, 300과 정확히 일치하지 않으면 이전 값이  불빛은 작게라도 살아있다.
 // Arduino pin assignment
 #define PIN_LED 9
 #define PIN_TRIG 12
