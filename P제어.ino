@@ -5,26 +5,25 @@
 /////////////////////////////
 
 // Arduino pin assignment
-#define PIN_LED 9  //[1692] LED 9번핀에 연결
-#define PIN_SERVO 10 // [3228] 서보10핀에 연결
-#define PIN_IR A0  // [3133] 적외선 센서 signal -> A0핀
-
+#define PIN_LED 9  
+#define PIN_SERVO 10 
+#define PIN_IR A0  
 // Framework setting
-#define _DIST_TARGET 255  //[0028] 목표 위치가 25.5cm임을 선언
+#define _DIST_TARGET 255 
 #define _DIST_MIN 68
 #define _DIST_MAX 410
 
 // Distance sensor
-#define _DIST_ALPHA 0.35   // [1628] ema 필터의 측정 보정치
+#define _DIST_ALPHA 0.35   
 
 // Servo range
-#define _DUTY_MIN 1160  //[0028] servo duty값 최소를 1000으로 고정 
-#define _DUTY_NEU 1480        //[3138] servo duty값 중간을 1450으로 고정
-#define _DUTY_MAX 1800  //[3145] servo duty값 최대를 2000으로 고정
+#define _DUTY_MIN 1160  
+#define _DUTY_NEU 1480        
+#define _DUTY_MAX 1800  
 
 // Servo speed control
-#define _SERVO_ANGLE 30        // [3131] servo 각도 설정
-#define _SERVO_SPEED 800        // [3141] servo 속도 설정
+#define _SERVO_ANGLE 30        
+#define _SERVO_SPEED 800       
 
 // Event periods
 #define _INTERVAL_DIST 30 
