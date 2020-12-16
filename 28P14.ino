@@ -68,7 +68,6 @@ void setup() {
   last_sampling_time_dist = 0;
   last_sampling_time_servo = 0;
   last_sampling_time_serial = 0;
-
 // initialize global variables
   dist_min = _DIST_MIN;
   dist_max = _DIST_MAX; 
